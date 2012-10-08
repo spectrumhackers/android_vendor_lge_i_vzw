@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
 	vendor/lge/VS920/proprietary/lib/hw/sensors.msm8660.so:system/lib/hw/sensors.msm8660.so \
+	vendor/lge/VS920/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
 	vendor/lge/VS920/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/lge/VS920/proprietary/bin/BCM4330B14.hcd:system/bin/BCM4330B14.hcd \
 	vendor/lge/VS920/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
