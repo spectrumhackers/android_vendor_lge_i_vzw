@@ -100,6 +100,19 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/VS920/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
 	vendor/lge/VS920/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so
 
+# Misc services
+PRODUCT_COPY_FILES += \
+	vendor/lge/VS920/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+	vendor/lge/VS920/proprietary/bin/atd:system/bin/atd \
+	vendor/lge/VS920/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
+	vendor/lge/VS920/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+	vendor/lge/VS920/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
+	vendor/lge/VS920/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+	vendor/lge/VS920/proprietary/bin/prapp:system/bin/prapp \
+	vendor/lge/VS920/proprietary/bin/qem:system/bin/qem \
+	vendor/lge/VS920/proprietary/bin/qseecomd:system/bin/qseecomd \
+	vendor/lge/VS920/proprietary/bin/vpncstarter:system/bin/vpncstarter
+
 # XXX: from CM9 p930 nightly, locally built versions of these segfault
 PRODUCT_COPY_FILES += \
 	vendor/lge/VS920/proprietary/lib/hw/audio_policy.msm8660.so:system/lib/hw/audio_policy.msm8660.so \
