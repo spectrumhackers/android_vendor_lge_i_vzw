@@ -95,6 +95,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/lge/VS920/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so
 
+# Camera
+PRODUCT_COPY_FILES += \
+	vendor/lge/VS920/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+	vendor/lge/VS920/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so
+
 # XXX: from CM9 p930 nightly, locally built versions of these segfault
 PRODUCT_COPY_FILES += \
 	vendor/lge/VS920/proprietary/lib/hw/audio_policy.msm8660.so:system/lib/hw/audio_policy.msm8660.so \
