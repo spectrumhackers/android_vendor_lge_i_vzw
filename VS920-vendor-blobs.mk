@@ -113,6 +113,30 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/VS920/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/lge/VS920/proprietary/bin/vpncstarter:system/bin/vpncstarter
 
+# Boot/Charger logo stuff
+PRODUCT_COPY_FILES += \
+	vendor/lge/VS920/proprietary/root/bootimages/LGPowerOn_01.rle:root/bootimages/LGPowerOn_01.rle \
+	vendor/lge/VS920/proprietary/root/bootimages/LGPowerOn_02.rle:root/bootimages/LGPowerOn_02.rle \
+	vendor/lge/VS920/proprietary/root/bootimages/LGPowerOn_03.rle:root/bootimages/LGPowerOn_03.rle \
+	vendor/lge/VS920/proprietary/root/bootimages/LGPowerOn_04.rle:root/bootimages/LGPowerOn_04.rle \
+	vendor/lge/VS920/proprietary/root/bootimages/LGPowerOn_05.rle:root/bootimages/LGPowerOn_05.rle \
+	vendor/lge/VS920/proprietary/root/bootimages/LGPowerOn_06.rle:root/bootimages/LGPowerOn_06.rle \
+	vendor/lge/VS920/proprietary/root/bootimages/LGPowerOn_07.rle:root/bootimages/LGPowerOn_07.rle \
+	vendor/lge/VS920/proprietary/root/bootimages/LGPowerOn_08.rle:root/bootimages/LGPowerOn_08.rle \
+	vendor/lge/VS920/proprietary/root/bootimages/boot_logo_00000.rle:root/bootimages/boot_logo_00000.rle \
+	vendor/lge/VS920/proprietary/root/chargerimages/battery_charging_01.png:root/chargerimages/battery_charging_01.png \
+	vendor/lge/VS920/proprietary/root/chargerimages/battery_charging_02.png:root/chargerimages/battery_charging_02.png \
+	vendor/lge/VS920/proprietary/root/chargerimages/battery_charging_03.png:root/chargerimages/battery_charging_03.png \
+	vendor/lge/VS920/proprietary/root/chargerimages/battery_charging_04.png:root/chargerimages/battery_charging_04.png \
+	vendor/lge/VS920/proprietary/root/chargerimages/battery_charging_05.png:root/chargerimages/battery_charging_05.png \
+	vendor/lge/VS920/proprietary/root/chargerimages/battery_charging_06.png:root/chargerimages/battery_charging_06.png \
+	vendor/lge/VS920/proprietary/root/chargerimages/battery_charging_warning.png:root/chargerimages/battery_charging_warning.png \
+	vendor/lge/VS920/proprietary/root/chargerimages/battery_wait_01.png:root/chargerimages/battery_wait_01.png \
+	vendor/lge/VS920/proprietary/root/chargerimages/battery_wait_02.png:root/chargerimages/battery_wait_02.png \
+	vendor/lge/VS920/proprietary/root/chargerimages/bg_wireless.png:root/chargerimages/bg_wireless.png \
+	vendor/lge/VS920/proprietary/root/sbin/bootlogo:root/sbin/bootlogo \
+	vendor/lge/VS920/proprietary/root/sbin/chargerlogo:root/sbin/chargerlogo
+
 # XXX: from CM9 p930 nightly, locally built versions of these segfault
 PRODUCT_COPY_FILES += \
 	vendor/lge/VS920/proprietary/lib/hw/audio_policy.msm8660.so:system/lib/hw/audio_policy.msm8660.so \
