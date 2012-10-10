@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/i_vzw/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/lge/i_vzw/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/lge/i_vzw/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-	vendor/lge/i_vzw/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/lge/i_vzw/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	vendor/lge/i_vzw/proprietary/lib/libidl.so:system/lib/libidl.so \
 	vendor/lge/i_vzw/proprietary/lib/libqdp.so:system/lib/libqdp.so \
